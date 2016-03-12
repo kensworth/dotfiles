@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<root>
+<item>
+<name>test</name>
+<identifier>private.test</identifier>
+<autogen>--KeyToKey-- KeyCode::H, VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_LEFT</autogen>
+<autogen>--KeyToKey-- KeyCode::H, VK_COMMAND | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_LEFT, ModifierFlag::SHIFT_L</autogen>
+<autogen>--KeyToKey-- KeyCode::J, VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_DOWN</autogen>
+<autogen>--KeyToKey-- KeyCode::J, VK_COMMAND | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_DOWN, ModifierFlag::SHIFT_L</autogen>
+<autogen>--KeyToKey-- KeyCode::K, VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_UP</autogen>
+<autogen>--KeyToKey-- KeyCode::K, VK_COMMAND | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_UP, ModifierFlag::SHIFT_L</autogen>
+<autogen>--KeyToKey-- KeyCode::L, VK_COMMAND | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT</autogen>
+<autogen>--KeyToKey-- KeyCode::L, VK_COMMAND | VK_SHIFT | ModifierFlag::NONE, KeyCode::CURSOR_RIGHT, ModifierFlag::SHIFT_L</autogen>
+
+<autogen>--KeyToKey-- KeyCode::H, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>
+<autogen>--KeyToKey-- KeyCode::J, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_DOWN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>
+<autogen>--KeyToKey-- KeyCode::K, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_UP, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>
+<autogen>--KeyToKey-- KeyCode::L, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION</autogen>
+
+<autogen>--KeyToKey-- KeyCode::H, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_LEFT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+<autogen>--KeyToKey-- KeyCode::J, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_DOWN, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+<autogen>--KeyToKey-- KeyCode::K, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_UP, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+<autogen>--KeyToKey-- KeyCode::L, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_CONTROL, KeyCode::CURSOR_RIGHT, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND</autogen>
+
+<autogen>--KeyToKey-- KeyCode::W, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L</autogen>
+<autogen>--KeyToKey-- KeyCode::A, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_LEFT, ModifierFlag::CONTROL_L</autogen>
+<autogen>--KeyToKey-- KeyCode::D, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L</autogen>
+<autogen>--KeyToKey-- KeyCode::S, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L</autogen>
+
+<autogen>--KeyToKey-- KeyCode::I, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::ESCAPE</autogen>
+
+</item>
+</root>
