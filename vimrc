@@ -20,6 +20,7 @@ call vundle#end()
 filetype plugin indent on
 
 syntax on
+set relativenumber
 filetype plugin indent on
 set encoding=utf-8
 execute pathogen#infect()
