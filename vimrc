@@ -39,4 +39,6 @@ set softtabstop=4   " Sets the number of columns for a TAB
 "set expandtab       " Expand TABs to spaces
 inoremap jk <ESC>
 let mapleader = "\<Space>"
+nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
+set showmode

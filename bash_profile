@@ -19,6 +19,9 @@ alias ~="cd ~/"
 alias ls="ls -l"
 alias ll="ls -l"
 alias octave="/usr/local/octave/3.8.0/bin/octave-3.8.0 ; exit;"
+function cdls {
+    builtin cd "$@" && ls -l
+}
 
 alias db="cd ~/Dropbox"
 alias dbcode="cd ~/Dropbox/Code"
@@ -53,7 +56,7 @@ alias olylint="~/Dropbox/Code/Sites/olyranks/node_modules/.bin/eslint"
 alias br=". ~/.bash_profile"
 alias bp="vim ~/.bash_profile"
 alias vr="vim ~/.vimrc"
-alias vim="mvim -v"
+#alias vim="mvim -v"
 alias vu="cp ~/.vimrc ~/Dropbox/Code/dotfiles/vimrc"
 alias bu="cp ~/.bash_profile ~/Dropbox/Code/dotfiles/bash_profile"
 
