@@ -56,7 +56,7 @@ alias olylint="~/Dropbox/Code/Sites/olyranks/node_modules/.bin/eslint"
 alias br=". ~/.bash_profile"
 alias bp="vim ~/.bash_profile"
 alias vr="vim ~/.vimrc"
-#alias vim="mvim -v"
+alias vim="mvim -v"
 alias vu="cp ~/.vimrc ~/Dropbox/Code/dotfiles/vimrc"
 alias bu="cp ~/.bash_profile ~/Dropbox/Code/dotfiles/bash_profile"
 
