@@ -16,7 +16,7 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
 alias ~="cd ~/"
-
+alias ll="ls -l"
 alias octave="/usr/local/octave/3.8.0/bin/octave-3.8.0 ; exit;"
 
 alias db="cd ~/Dropbox"
