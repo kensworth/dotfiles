@@ -56,7 +56,22 @@ alias olylint="~/Dropbox/Code/Sites/olyranks/node_modules/.bin/eslint"
 alias br=". ~/.bash_profile"
 alias bp="vim ~/.bash_profile"
 alias vr="vim ~/.vimrc"
-alias vim="mvim -v"
 alias vu="cp ~/.vimrc ~/Dropbox/Code/dotfiles/vimrc"
 alias bu="cp ~/.bash_profile ~/Dropbox/Code/dotfiles/bash_profile"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+nvm alias default v4.4.5
+
+function parse_git_branch () {
+       git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+export LSCOLORS=cxFxCxDxBxexexaxaxaxex
+export CLICOLOR=1
+
+RED="\[\033[0;31m\]"
+YELLOW="\[\033[0;33m\]"
+GREEN="\[\033[0;32m\]"
+NO_COLOUR="\[\033[0m\]"
+PS1="$GREEN\u$RED:\w$YELLOW\$(parse_git_branch)$NO_COLOUR ⚡  "
