@@ -27,7 +27,5 @@
 <autogen>--KeyToKey-- KeyCode::D, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_RIGHT, ModifierFlag::CONTROL_L</autogen>
 <autogen>--KeyToKey-- KeyCode::S, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_OPTION, KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L</autogen>
 
-<autogen>--KeyToKey-- KeyCode::I, MODIFIERFLAG_EITHER_LEFT_OR_RIGHT_COMMAND, KeyCode::ESCAPE</autogen>
-
 </item>
 </root>
