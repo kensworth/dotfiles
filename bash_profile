@@ -1,15 +1,4 @@
 PS1="\\W ⚡  "
-export PATH=$PATH:/Applications/MAMP/Library/bin
-
-#export NVM_DIR="/Users/kennethzhang/.nvm"
-#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-#export PATH=$PATH:/usr/local/bin/npm
-
-# Setting PATH for Python 3.4
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
-export PATH
-
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
@@ -27,7 +16,6 @@ alias db="cd ~/Dropbox"
 alias dbcode="cd ~/Dropbox/Code"
 alias dbsettings="cd ~/Dropbox/Code/Settings"
 alias dbken="cd ~/Dropbox/Code/Sites/kenaissance"
-alias dboly="cd ~/Dropbox/Code/Sites/olyranks"
 alias dbpp="cd ~/Dropbox/Code/Sites/peer-pigeon"
 alias dbml="cd ~/Dropbox/Code/ML/coursera"
 alias dbsites="cd ~/Dropbox/Code/Sites"
@@ -35,6 +23,7 @@ alias dbsc="cd ~/Dropbox/School"
 alias dbcs="cd ~/Dropbox/School/CS"
 
 alias gs="git status"
+alias gd="git diff"
 alias ga="git add"
 alias gaa="git add ."
 alias grm="git rm"
@@ -50,18 +39,13 @@ alias gckt="git checkout testing"
 alias gckm="git checkout master"
 alias gbr="git branch"
 
-alias olylint="~/Dropbox/Code/Sites/olyranks/node_modules/.bin/eslint"
-
-
 alias br=". ~/.bash_profile"
 alias bp="vim ~/.bash_profile"
 alias vr="vim ~/.vimrc"
 alias vu="cp ~/.vimrc ~/Dropbox/Code/dotfiles/vimrc"
+alias vul="cp ~/Dropbox/Code/dotfiles/vimrc ~/.vimrc"
 alias bu="cp ~/.bash_profile ~/Dropbox/Code/dotfiles/bash_profile"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-nvm alias default v4.4.5
+alias bul="cp ~/Dropbox/Code/dotfiles/bash_profile ~/.bash_profile"
 
 function parse_git_branch () {
        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
