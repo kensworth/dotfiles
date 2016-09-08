@@ -11,6 +11,29 @@ alias octave="/usr/local/octave/3.8.0/bin/octave-3.8.0 ; exit;"
 function cd {
     builtin cd "$@" && ls -l
 }
+function up( )
+{
+LIMIT=$1
+P=$PWD
+for ((i=1; i <= LIMIT; i++))
+do
+    P=$P/..
+done
+cd $P
+export MPWD=$P
+}
+
+function back( )
+{
+LIMIT=$1
+P=$MPWD
+for ((i=1; i <= LIMIT; i++))
+do
+    P=${P%/..}
+done
+cd $P
+export MPWD=$P
+}
 
 alias db="cd ~/Dropbox"
 alias dbcode="cd ~/Dropbox/Code"
