@@ -1250,3 +1250,4 @@
     endif
 " }
 inoremap jk <ESC>
+set wrap
