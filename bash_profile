@@ -37,10 +37,8 @@ export MPWD=$P
 
 alias db="cd ~/Dropbox"
 alias dbcode="cd ~/Dropbox/Code"
-alias dbsettings="cd ~/Dropbox/Code/Settings"
-alias dbken="cd ~/Dropbox/Code/Sites/kenaissance"
+alias dbdot="cd ~/Dropbox/Code/dotfiles"
 alias dbpp="cd ~/Dropbox/Code/Sites/peer-pigeon"
-alias dbml="cd ~/Dropbox/Code/ML/coursera"
 alias dbsites="cd ~/Dropbox/Code/Sites"
 alias dbsc="cd ~/Dropbox/School"
 alias dbcs="cd ~/Dropbox/School/CS"
