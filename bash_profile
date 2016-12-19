@@ -68,6 +68,9 @@ alias vul="cp ~/Dropbox/Code/dotfiles/vimrc ~/.vimrc"
 alias bu="cp ~/.bash_profile ~/Dropbox/Code/dotfiles/bash_profile"
 alias bul="cp ~/Dropbox/Code/dotfiles/bash_profile ~/.bash_profile"
 
+export TMUX_SESSION="session"
+alias tmx="tmux new -s $TMUX_SESSION 2> /dev/null || tmux attach -t $TMUX_SESSION"
+
 function parse_git_branch () {
        git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
