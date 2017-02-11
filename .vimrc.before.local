@@ -1,4 +1,3 @@
 let g:spf13_bundle_groups=['general', 'youcompleteme', 'writing', 'programming', 'misc', 'python', 'javascript', 'html']
-inoremap jk <ESC>
-set breakindent
 let g:spf13_no_fastTabs = 0
+inoremap jk <ESC>
