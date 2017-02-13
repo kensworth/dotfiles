@@ -4,6 +4,12 @@ PS1="\\W ⚡  "
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
+# Homebrew
+export PATH=/usr/local/bin:$PATH
+
+# Virtualenv/VirtualenvWrapper
+source /usr/local/bin/virtualenvwrapper.sh
+
 alias ~="cd ~/"
 alias ls="ls -l"
 alias ll="ls -l"
